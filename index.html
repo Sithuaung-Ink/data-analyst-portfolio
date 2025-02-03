@@ -70,7 +70,7 @@
         }
         .projects-container .project img {
             width: 100%; /* Ensure the image takes up the full width of its container */
-            height: 200px; /* Set a fixed height for all images */
+            height: 350px; /* Set a fixed height for all images */
             object-fit: cover; /* Ensure the image covers the entire area without distortion */
             border-radius: 5px;
             margin-bottom: 15px;
@@ -159,6 +159,7 @@
         <nav>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
+            <a href="#papers">Papers</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -194,18 +195,18 @@
     <section id="projects" class="projects">
         <h2>Projects</h2>
         <p>
-            These are my sample works, and more on the GitHub page.
+            These are my sample works and more on the GitHub page.
         </p>
         <div class="projects-container">
             <div class="project">
                 <h3>Project 1: Predicting Hospital Readmission</h3>
-                <img src="images/hospital-readmission.jpg">
+                <img src="images/hospital.jpg">
                 <p>The prediction of hospital re-admission based on electronic health records using different machine learning techniques implemented in Python programming.</p>
-                <button class="btn" onclick="window.open('https://github.com/Sithuaung-Ink/Prediction-of-hospital-readmission-based-on-ML-algorithms-using-EHRs/blob/main/Prediction%20of%20hospital%20readmission%20based%20on%20ML%20algorithms%20using%20EHRs/prediction%20of%20hospital%20admission.ipynb', '_blank')">View Full Project</button>
+                <button class="btn" onclick="window.open('https://github.com/sithuaung-ink/prediction-of-hospital-readmission-based-on-ml-algorithms-using-ehrs/tree/main', '_blank')">View Full Project</button>
             </div>
             <div class="project">
                 <h3>Project 2: ECG Arrhythmia Detection</h3>
-                <img src="images/ecg-arrhythmia.jpg">
+                <img src="images/ecg.jpg">
                 <p>The automatic detection of the ECG Arrhythmia system was implemented using three different feature extraction methods such as statistical features, FFT, and CWT, and these features are classified using different machine learning techniques, including SVM, KNN, and RF.</p>
                 <button class="btn" onclick="window.open('https://github.com/sithuaung-ink/ecg_arrhythmia_detection/tree/main', '_blank')">View Full Project</button>
             </div>
@@ -214,6 +215,33 @@
                 <img src="images/bitcoin_2017_2023.jpg">
                 <p>This project analyzes Bitcoin price trends using exploratory data analysis (EDA) and machine learning. It covers data cleaning, visualizing historical trends, computing moving averages, and building a simple predictive model with linear regression.</p>
                 <button class="btn" onclick="window.open('https://medium.com/@sithuaung2263/predicting-bitcoin-prices-a-data-driven-approach-to-crypto-trends-5179f0b9594b', '_blank')">View Full Project</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="papers" class="papers">
+        <h2>Papers</h2>
+        <p>
+            These are my published papers and more on the Google Scholar.
+        </p>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Modified-Distribution Entropy as the Features for the Detection of Epileptic Seizures</h3>
+                <img src="images/fphys-11-00607-g006.jpg">
+                <p>The proposed modified-Distribution entropy (mDistEn), combining advantages of fuzzy and distribution entropy, achieves 92% classification accuracy and higher AUC values for epilepsy detection in EEG data compared to state-of-the-art entropy methods.</p>
+                <button class="btn" onclick="window.open('https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2020.00607/full', '_blank')">View Full Paper</button>
+            </div>
+            <div class="project">
+                <h3>Prediction of epileptic seizures based on multivariate multiscale modified-distribution entropy</h3>
+                <img src="images/fig-8-2x.jpg">
+                <p>The proposed multivariate multiscale modified-distribution entropy (MM-mDistEn) combined with an artificial neural network (ANN) achieves 98.66% accuracy, 0.84 AUC, a 0.014/h false alarm rate, and 26.73-minute average prediction time for epilepsy seizure prediction, demonstrating strong clinical potential.</p>
+                <button class="btn" onclick="window.open('https://peerj.com/articles/cs-744/', '_blank')">View Full Paper</button>
+            </div>
+	        <div class="project">
+                <h3>Entropy-Based Emotion Recognition from Multichannel EEG Signals Using Artificial Neural Network</h3>
+                <img src="images/cone6000989-fig-0009-m.jpg">
+                <p>TThe proposed multivariate multiscale modified-distribution entropy (MM-mDistEn) combined with an artificial neural network (ANN) achieves high emotion recognition accuracy from EEG data, with average accuracies of 95.73% ± 0.67 (valence) and 96.78% ± 0.25 (arousal) on the GAMEEMO dataset and 92.57% ± 1.51 (valence) and 80.23% ± 1.83 (arousal) on the DEAP dataset.</p>
+                <button class="btn" onclick="window.open('https://onlinelibrary.wiley.com/doi/full/10.1155/2022/6000989', '_blank')">View Full Paper</button>
             </div>
         </div>
     </section>
